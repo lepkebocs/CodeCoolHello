@@ -1,2 +1,8 @@
 # CodeCoolHello
-Hello world project for Codecool
+import sys
+try:
+    name = sys.argv[1]
+    print "Hello,",name
+except:
+    print "Hello World"
+
